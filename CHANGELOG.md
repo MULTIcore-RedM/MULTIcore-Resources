@@ -3,7 +3,6 @@
 *MULTIcore was founded and created by RINGO (RINGOscripting).*
 
 ## 2026-11-28
-- **MULTIcatalog** added (free): a mail-order catalog at every post office counter. Order everyday goods (food, coffee, tobacco, bandages, simple tools, camp goods, horse care, bait and seeds) and pay at once. The parcel waits at the post office you picked after one in-game day (or a set number of real minutes). Goods that do not fit stay in the parcel until you have room. The clerk hands out a free catalog you can carry and order from anywhere. Prices are about a quarter above the general store. 32 languages; classic, parchment and modern looks. Add `ensure MULTIcatalog` after `ensure MULTItelegram`.
 - **In-game settings:** MULTIstores (price and pay-out multipliers, selling, most per purchase, restock, opening hours), MULTIjobs (boss pay limits, idle off-duty minutes), MULTIbank (fees) and MULTImedic (respawn timer) can be changed from MULTIadmin's Settings page while the server runs. Needs the MULTIcore and MULTIadmin of 2026-11-28 from MULTIcore-Server.
 
 ## 2026-11-27 (the MULTI scripts move here from MULTIcore-Server)

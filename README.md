@@ -40,7 +40,6 @@ To add these by hand to a server you set up yourself: copy `resources/[multicore
 | MULTIlaw | Lawmen, jail and prison (answers as rsg-lawman and rsg-prison) |
 | MULTIradial | The quick menu (F6) |
 | MULTItelegram | Telegrams and parcels at the post office |
-| MULTIcatalog | Mail-order catalog: order everyday goods, collect the parcel at the post office |
 | MULTIhouses | Houses: buy, pay off, land tax, guest keys, stash, wardrobe |
 | MULTIhotel | Hotel rooms |
 | MULTIbathing | Bath houses |
