@@ -90,4 +90,8 @@ Locales['no'] = {
     ['log_title'] = '%s (%s) døde',
     ['log_text'] = '%s ble drept av %s (årsak %s)',
     ['log_unknown'] = 'ukjent',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Død",
+    ["set_respawn_timer"] = "Sekunder før en nedlagt spiller kan respawne",
+    ["set_unit_sec"] = "s",
 }

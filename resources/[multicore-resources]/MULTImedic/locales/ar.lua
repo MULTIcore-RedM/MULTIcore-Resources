@@ -90,4 +90,8 @@ Locales['ar'] = {
     ['log_title'] = '%s (%s) مات',
     ['log_text'] = '%s قُتل على يد %s (السبب %s)',
     ['log_unknown'] = 'غير معروف',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "الموت",
+    ["set_respawn_timer"] = "الثواني قبل أن يتمكن اللاعب المصاب من الظهور من جديد",
+    ["set_unit_sec"] = "ث",
 }

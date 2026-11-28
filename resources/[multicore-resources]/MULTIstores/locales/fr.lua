@@ -86,4 +86,16 @@ Locales['fr'] = {
     ['cat_ammo'] = 'Munitions',
     ['cat_goods'] = 'Marchandises',
     ['cat_materials'] = 'Matériaux',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Prix et stock",
+    ["setcat_hours"] = "Heures d'ouverture",
+    ["set_price_multiplier"] = "Multiplicateur de prix (ce que paient les joueurs)",
+    ["set_pay_multiplier"] = "Multiplicateur de rachat (ce que paient les magasins)",
+    ["set_sell_enabled"] = "Les joueurs peuvent vendre aux magasins",
+    ["set_max_per_purchase"] = "Maximum d'un même article par achat",
+    ["set_restock_minutes"] = "Minutes entre deux réapprovisionnements (0 = jamais)",
+    ["set_hours_enabled"] = "Les magasins ont des heures d'ouverture",
+    ["set_hours_open"] = "Heure d'ouverture",
+    ["set_hours_close"] = "Heure de fermeture",
+    ["set_unit_min"] = "min",
 }

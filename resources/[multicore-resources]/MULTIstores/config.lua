@@ -19,6 +19,9 @@ Config.Debug = false                -- default false (prints every purchase and 
 Config.Currency = 'cash'            -- default 'cash' (MULTIcore money type players pay with and are paid in)
 Config.CurrencySign = '$'           -- default '$' (money sign on the store screen)
 Config.MaxPerPurchase = 100         -- default 100 (most of one item bought or sold at once)
+-- Every store price is multiplied by this (1.0 = the prices in config/products.lua and config/gunsmith.lua).
+-- These values can also be changed in game (MULTIadmin, Settings page); this file stays the default.
+Config.PriceMultiplier = 1.0        -- default 1.0 (0.5 = half price, 2.0 = double)
 
 ---------------------------------
 -- how players open a store
@@ -55,6 +58,7 @@ Config.Restock = {
 Config.Sell = {
     Enabled = true,                 -- default true (false = no Sell tab anywhere)
     QualityScales = true,           -- default true (an item with info.quality pays price x quality / 100)
+    PayMultiplier = 1.0,            -- default 1.0 (what stores pay is multiplied by this; never more than Config.PriceMultiplier, so no money loops)
 }
 
 ---------------------------------

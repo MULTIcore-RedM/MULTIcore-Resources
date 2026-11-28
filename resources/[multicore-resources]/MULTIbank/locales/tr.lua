@@ -139,4 +139,8 @@ Locales['tr'] = {
     ['k_box_rent'] = 'Kasa kirası',
     ['k_box_fee'] = 'Kasa ücreti',
     ['k_money_clip'] = 'Para klipsi',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Ücretler",
+    ["set_withdraw_fee"] = "Para çekme ücreti",
+    ["set_transfer_fee"] = "Havale ücreti",
 }

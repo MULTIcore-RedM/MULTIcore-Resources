@@ -90,4 +90,8 @@ Locales['ja'] = {
     ['log_title'] = '%s (%s) が死亡',
     ['log_text'] = '%s が %s に殺された（死因 %s）',
     ['log_unknown'] = '不明',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "死亡",
+    ["set_respawn_timer"] = "倒れたプレイヤーがリスポーンできるまでの秒数",
+    ["set_unit_sec"] = "秒",
 }

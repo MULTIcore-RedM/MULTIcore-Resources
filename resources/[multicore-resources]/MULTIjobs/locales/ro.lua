@@ -200,4 +200,11 @@ Locales['ro'] = {
     ['ui_on_duty_now'] = 'în tură acum',
     ['ui_roster_help'] = 'Personalul în tură e plătit la fiecare salariu. Cei care stau degeaba sunt scoși din tură.',
     ['ui_stash'] = 'Depozit',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Plata pe care o pot stabili șefii",
+    ["setcat_duty"] = "Serviciu",
+    ["set_boss_pay_min"] = "Cea mai mică plată per salariu",
+    ["set_boss_pay_max"] = "Cea mai mare plată per salariu",
+    ["set_afk_minutes"] = "Ieșire din serviciu după atâta stat pe loc (0 = niciodată)",
+    ["set_unit_min"] = "min",
 }

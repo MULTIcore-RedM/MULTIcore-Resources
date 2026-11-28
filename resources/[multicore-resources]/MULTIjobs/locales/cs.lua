@@ -200,4 +200,11 @@ Locales['cs'] = {
     ['ui_on_duty_now'] = 'právě ve službě',
     ['ui_roster_help'] = 'Zaměstnanci ve službě dostávají každou výplatu. Nečinní jsou ze služby vyřazeni.',
     ['ui_stash'] = 'Sklad',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Plat, který smějí nastavit šéfové",
+    ["setcat_duty"] = "Služba",
+    ["set_boss_pay_min"] = "Nejnižší plat za výplatu",
+    ["set_boss_pay_max"] = "Nejvyšší plat za výplatu",
+    ["set_afk_minutes"] = "Konec služby po takto dlouhém stání na místě (0 = nikdy)",
+    ["set_unit_min"] = "min",
 }

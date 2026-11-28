@@ -139,4 +139,8 @@ Locales['it'] = {
     ['k_box_rent'] = 'Affitto cassetta',
     ['k_box_fee'] = 'Canone cassetta',
     ['k_money_clip'] = 'Fermasoldi',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Commissioni",
+    ["set_withdraw_fee"] = "Commissione di prelievo",
+    ["set_transfer_fee"] = "Commissione di bonifico",
 }

@@ -21,6 +21,8 @@ shared_scripts {
     'config.lua',
     'config/*.lua',
     'locales/*.lua',
+    '@MULTIcore/lib/settings.lua', -- values an admin can change in game (MULTIadmin, Settings page)
+    'settings.lua',
 }
 
 server_scripts {

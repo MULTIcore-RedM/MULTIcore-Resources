@@ -200,4 +200,11 @@ Locales['es'] = {
     ['ui_on_duty_now'] = 'de servicio ahora mismo',
     ['ui_roster_help'] = 'El personal de servicio cobra en cada paga. El personal inactivo es sacado del servicio.',
     ['ui_stash'] = 'Almacén',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Paga que los jefes pueden fijar",
+    ["setcat_duty"] = "Servicio",
+    ["set_boss_pay_min"] = "Paga mínima por pago",
+    ["set_boss_pay_max"] = "Paga máxima por pago",
+    ["set_afk_minutes"] = "Fuera de servicio tras estar quieto este tiempo (0 = nunca)",
+    ["set_unit_min"] = "min",
 }

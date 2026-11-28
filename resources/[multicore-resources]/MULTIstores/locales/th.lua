@@ -90,4 +90,16 @@ Locales['th'] = {
     ['cat_ammo'] = 'กระสุน',
     ['cat_goods'] = 'สินค้า',
     ['cat_materials'] = 'วัสดุ',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "ราคาและสต็อก",
+    ["setcat_hours"] = "เวลาเปิดทำการ",
+    ["set_price_multiplier"] = "ตัวคูณราคา (สิ่งที่ผู้เล่นจ่าย)",
+    ["set_pay_multiplier"] = "ตัวคูณราคารับซื้อ (สิ่งที่ร้านจ่าย)",
+    ["set_sell_enabled"] = "ผู้เล่นขายให้ร้านค้าได้",
+    ["set_max_per_purchase"] = "จำนวนสูงสุดของสินค้าชิ้นเดียวต่อการซื้อ",
+    ["set_restock_minutes"] = "นาทีระหว่างการเติมสต็อก (0 = ไม่เติมเลย)",
+    ["set_hours_enabled"] = "ร้านค้ามีเวลาเปิดทำการ",
+    ["set_hours_open"] = "เวลาเปิดร้าน",
+    ["set_hours_close"] = "เวลาปิดร้าน",
+    ["set_unit_min"] = "นาที",
 }

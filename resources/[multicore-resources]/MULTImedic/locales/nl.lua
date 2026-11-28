@@ -82,4 +82,8 @@ Locales['nl'] = {
     ["log_title"] = "%s (%s) is gestorven",
     ["log_text"] = "%s is gedood door %s (oorzaak %s)",
     ["log_unknown"] = "onbekend",
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Dood",
+    ["set_respawn_timer"] = "Seconden voordat een neergehaalde speler mag respawnen",
+    ["set_unit_sec"] = "s",
 }

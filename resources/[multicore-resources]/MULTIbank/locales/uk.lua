@@ -148,4 +148,8 @@ Locales['uk'] = {
     ['k_box_rent'] = 'Оренда скриньки',
     ['k_box_fee'] = 'Плата за скриньку',
     ['k_money_clip'] = 'Затискач для грошей',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Комісії",
+    ["set_withdraw_fee"] = "Комісія за зняття",
+    ["set_transfer_fee"] = "Комісія за переказ",
 }

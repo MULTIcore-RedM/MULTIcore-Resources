@@ -148,4 +148,8 @@ Locales['hr'] = {
     ['k_box_rent'] = 'Najamnina sefa',
     ['k_box_fee'] = 'Naknada za sef',
     ['k_money_clip'] = 'Štipaljka za novac',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Naknade",
+    ["set_withdraw_fee"] = "Naknada za podizanje",
+    ["set_transfer_fee"] = "Naknada za prijenos",
 }

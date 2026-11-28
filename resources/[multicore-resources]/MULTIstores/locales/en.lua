@@ -90,4 +90,16 @@ Locales['en'] = {
     ['cat_ammo'] = 'Ammo',
     ['cat_goods'] = 'Goods',
     ['cat_materials'] = 'Materials',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Prices and stock",
+    ["setcat_hours"] = "Opening hours",
+    ["set_price_multiplier"] = "Price multiplier (what players pay)",
+    ["set_pay_multiplier"] = "Pay-out multiplier (what stores pay)",
+    ["set_sell_enabled"] = "Players can sell to stores",
+    ["set_max_per_purchase"] = "Most of one item per purchase",
+    ["set_restock_minutes"] = "Minutes between restocks (0 = never)",
+    ["set_hours_enabled"] = "Stores keep opening hours",
+    ["set_hours_open"] = "Opening hour",
+    ["set_hours_close"] = "Closing hour",
+    ["set_unit_min"] = "min",
 }

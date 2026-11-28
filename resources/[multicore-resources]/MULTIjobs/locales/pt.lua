@@ -200,4 +200,11 @@ Locales['pt'] = {
     ['ui_on_duty_now'] = 'de serviço agora',
     ['ui_roster_help'] = 'O pessoal de serviço recebe a cada pagamento. Quem fica parado sai de serviço.',
     ['ui_stash'] = 'Armazém',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Pagamento que os patrões podem definir",
+    ["setcat_duty"] = "Serviço",
+    ["set_boss_pay_min"] = "Pagamento mais baixo por salário",
+    ["set_boss_pay_max"] = "Pagamento mais alto por salário",
+    ["set_afk_minutes"] = "Sai de serviço depois de ficar parado este tempo (0 = nunca)",
+    ["set_unit_min"] = "min",
 }

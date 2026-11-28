@@ -139,4 +139,8 @@ Locales['pl'] = {
     ['k_box_rent'] = 'Wynajem skrytki',
     ['k_box_fee'] = 'Opłata za skrytkę',
     ['k_money_clip'] = 'Spinacz do banknotów',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Opłaty",
+    ["set_withdraw_fee"] = "Opłata za wypłatę",
+    ["set_transfer_fee"] = "Opłata za przelew",
 }

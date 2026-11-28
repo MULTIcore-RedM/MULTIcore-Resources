@@ -200,4 +200,11 @@ Locales['sl'] = {
     ['ui_on_duty_now'] = 'trenutno v službi',
     ['ui_roster_help'] = 'Osebje v službi dobi plačilo ob vsakem izplačilu. Nedejavne odjavijo iz službe.',
     ['ui_stash'] = 'Skladišče',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Plača, ki jo lahko določijo šefi",
+    ["setcat_duty"] = "Služba",
+    ["set_boss_pay_min"] = "Najnižja plača na izplačilo",
+    ["set_boss_pay_max"] = "Najvišja plača na izplačilo",
+    ["set_afk_minutes"] = "Konec službe po toliko mirovanja (0 = nikoli)",
+    ["set_unit_min"] = "min",
 }

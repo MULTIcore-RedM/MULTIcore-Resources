@@ -90,4 +90,8 @@ Locales['zh'] = {
     ['log_title'] = '%s (%s) 死亡',
     ['log_text'] = '%s 被 %s 杀死（死因 %s）',
     ['log_unknown'] = '未知',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "死亡",
+    ["set_respawn_timer"] = "倒地玩家可重生前的秒数",
+    ["set_unit_sec"] = "秒",
 }

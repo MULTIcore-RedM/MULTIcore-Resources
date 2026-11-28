@@ -148,4 +148,8 @@ Locales['no'] = {
     ['k_box_rent'] = 'Boksleie',
     ['k_box_fee'] = 'Boksgebyr',
     ['k_money_clip'] = 'Pengeklype',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Gebyrer",
+    ["set_withdraw_fee"] = "Uttaksgebyr",
+    ["set_transfer_fee"] = "Overføringsgebyr",
 }

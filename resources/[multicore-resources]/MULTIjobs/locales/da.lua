@@ -200,4 +200,11 @@ Locales['da'] = {
     ['ui_on_duty_now'] = 'på vagt lige nu',
     ['ui_roster_help'] = 'Personale på vagt får løn ved hver udbetaling. Ledigt personale tages af vagt.',
     ['ui_stash'] = 'Lager',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Løn chefer må sætte",
+    ["setcat_duty"] = "Vagt",
+    ["set_boss_pay_min"] = "Laveste løn pr. lønudbetaling",
+    ["set_boss_pay_max"] = "Højeste løn pr. lønudbetaling",
+    ["set_afk_minutes"] = "Fra vagt efter at have stået stille så længe (0 = aldrig)",
+    ["set_unit_min"] = "min",
 }

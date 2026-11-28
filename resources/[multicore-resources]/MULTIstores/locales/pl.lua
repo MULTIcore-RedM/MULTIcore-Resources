@@ -86,4 +86,16 @@ Locales['pl'] = {
     ['cat_ammo'] = 'Amunicja',
     ['cat_goods'] = 'Towary',
     ['cat_materials'] = 'Materiały',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Ceny i zapasy",
+    ["setcat_hours"] = "Godziny otwarcia",
+    ["set_price_multiplier"] = "Mnożnik cen (ile płacą gracze)",
+    ["set_pay_multiplier"] = "Mnożnik skupu (ile płacą sklepy)",
+    ["set_sell_enabled"] = "Gracze mogą sprzedawać sklepom",
+    ["set_max_per_purchase"] = "Maksimum jednego przedmiotu na zakup",
+    ["set_restock_minutes"] = "Minuty między uzupełnieniami zapasów (0 = nigdy)",
+    ["set_hours_enabled"] = "Sklepy mają godziny otwarcia",
+    ["set_hours_open"] = "Godzina otwarcia",
+    ["set_hours_close"] = "Godzina zamknięcia",
+    ["set_unit_min"] = "min",
 }

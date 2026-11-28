@@ -82,4 +82,8 @@ Locales['de'] = {
     ["log_title"] = "%s (%s) ist gestorben",
     ["log_text"] = "%s wurde von %s getötet (Ursache %s)",
     ["log_unknown"] = "unbekannt",
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Tod",
+    ["set_respawn_timer"] = "Sekunden, bevor ein niedergeschlagener Spieler respawnen darf",
+    ["set_unit_sec"] = "s",
 }

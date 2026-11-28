@@ -90,4 +90,8 @@ Locales['en'] = {
     ['log_title'] = '%s (%s) died',
     ['log_text'] = '%s was killed by %s (cause %s)',
     ['log_unknown'] = 'unknown',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Death",
+    ["set_respawn_timer"] = "Seconds before a downed player may respawn",
+    ["set_unit_sec"] = "s",
 }

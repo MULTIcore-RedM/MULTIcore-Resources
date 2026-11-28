@@ -200,4 +200,11 @@ Locales['uk'] = {
     ['ui_on_duty_now'] = 'зараз на зміні',
     ['ui_roster_help'] = 'Персонал на зміні отримує кожну виплату. Тих, хто бездіє, знімають зі зміни.',
     ['ui_stash'] = 'Сховище',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Оплата, яку можуть задавати боси",
+    ["setcat_duty"] = "Зміна",
+    ["set_boss_pay_min"] = "Мінімальна оплата за виплату",
+    ["set_boss_pay_max"] = "Максимальна оплата за виплату",
+    ["set_afk_minutes"] = "Кінець зміни після такого простою (0 = ніколи)",
+    ["set_unit_min"] = "хв",
 }

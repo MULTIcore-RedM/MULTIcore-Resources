@@ -148,4 +148,8 @@ Locales['ja'] = {
     ['k_box_rent'] = '金庫の賃料',
     ['k_box_fee'] = '金庫の手数料',
     ['k_money_clip'] = 'マネークリップ',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "手数料",
+    ["set_withdraw_fee"] = "引き出し手数料",
+    ["set_transfer_fee"] = "送金手数料",
 }

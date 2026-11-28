@@ -148,4 +148,8 @@ Locales['el'] = {
     ['k_box_rent'] = 'Ενοίκιο θυρίδας',
     ['k_box_fee'] = 'Τέλος θυρίδας',
     ['k_money_clip'] = 'Δεσμίδα χρημάτων',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Χρεώσεις",
+    ["set_withdraw_fee"] = "Χρέωση ανάληψης",
+    ["set_transfer_fee"] = "Χρέωση μεταφοράς",
 }

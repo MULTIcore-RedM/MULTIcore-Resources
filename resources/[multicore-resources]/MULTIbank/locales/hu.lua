@@ -148,4 +148,8 @@ Locales['hu'] = {
     ['k_box_rent'] = 'Széfbér',
     ['k_box_fee'] = 'Széfdíj',
     ['k_money_clip'] = 'Pénzcsipesz',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Díjak",
+    ["set_withdraw_fee"] = "Készpénzfelvételi díj",
+    ["set_transfer_fee"] = "Átutalási díj",
 }

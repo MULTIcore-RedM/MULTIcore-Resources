@@ -148,4 +148,8 @@ Locales['ko'] = {
     ['k_box_rent'] = '금고 임대료',
     ['k_box_fee'] = '금고 수수료',
     ['k_money_clip'] = '돈 클립',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "수수료",
+    ["set_withdraw_fee"] = "출금 수수료",
+    ["set_transfer_fee"] = "송금 수수료",
 }

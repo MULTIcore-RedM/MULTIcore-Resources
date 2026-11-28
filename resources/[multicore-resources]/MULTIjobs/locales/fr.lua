@@ -200,4 +200,11 @@ Locales['fr'] = {
     ['ui_on_duty_now'] = 'en service en ce moment',
     ['ui_roster_help'] = 'Le personnel en service est payé à chaque paie. Le personnel inactif est retiré du service.',
     ['ui_stash'] = 'Réserve',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Salaire que les patrons peuvent fixer",
+    ["setcat_duty"] = "Service",
+    ["set_boss_pay_min"] = "Salaire minimal par paie",
+    ["set_boss_pay_max"] = "Salaire maximal par paie",
+    ["set_afk_minutes"] = "Fin de service après cette durée d'immobilité (0 = jamais)",
+    ["set_unit_min"] = "min",
 }

@@ -200,4 +200,11 @@ Locales['ja'] = {
     ['ui_on_duty_now'] = '勤務中',
     ['ui_roster_help'] = '勤務中の従業員は給料日ごとに給料が出る。放置している者は勤務から外される。',
     ['ui_stash'] = '保管庫',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "ボスが設定できる給料",
+    ["setcat_duty"] = "勤務",
+    ["set_boss_pay_min"] = "1回の給料の最低額",
+    ["set_boss_pay_max"] = "1回の給料の最高額",
+    ["set_afk_minutes"] = "この時間じっと立っていると勤務外になる (0 = しない)",
+    ["set_unit_min"] = "分",
 }

@@ -90,4 +90,8 @@ Locales['ko'] = {
     ['log_title'] = '%s (%s) 사망',
     ['log_text'] = '%s 사망, 가해자: %s (원인 %s)',
     ['log_unknown'] = '알 수 없음',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "사망",
+    ["set_respawn_timer"] = "쓰러진 플레이어가 리스폰하기까지의 초",
+    ["set_unit_sec"] = "초",
 }

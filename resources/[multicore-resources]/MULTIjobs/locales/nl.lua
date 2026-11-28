@@ -200,4 +200,11 @@ Locales['nl'] = {
     ['ui_on_duty_now'] = 'nu in dienst',
     ['ui_roster_help'] = 'Personeel in dienst krijgt elke loonbetaling uitbetaald. Wie niets doet, gaat uit dienst.',
     ['ui_stash'] = 'Opslag',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Loon dat bazen mogen instellen",
+    ["setcat_duty"] = "Dienst",
+    ["set_boss_pay_min"] = "Laagste loon per uitbetaling",
+    ["set_boss_pay_max"] = "Hoogste loon per uitbetaling",
+    ["set_afk_minutes"] = "Uit dienst na zo lang stilstaan (0 = nooit)",
+    ["set_unit_min"] = "min",
 }

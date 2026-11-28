@@ -90,4 +90,16 @@ Locales['id'] = {
     ['cat_ammo'] = 'Amunisi',
     ['cat_goods'] = 'Barang',
     ['cat_materials'] = 'Bahan',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Harga dan stok",
+    ["setcat_hours"] = "Jam buka",
+    ["set_price_multiplier"] = "Pengali harga (yang dibayar pemain)",
+    ["set_pay_multiplier"] = "Pengali bayaran (yang dibayar toko)",
+    ["set_sell_enabled"] = "Pemain dapat menjual ke toko",
+    ["set_max_per_purchase"] = "Jumlah terbanyak satu barang per pembelian",
+    ["set_restock_minutes"] = "Menit antar pengisian stok (0 = tidak pernah)",
+    ["set_hours_enabled"] = "Toko punya jam buka",
+    ["set_hours_open"] = "Jam buka",
+    ["set_hours_close"] = "Jam tutup",
+    ["set_unit_min"] = "mnt",
 }

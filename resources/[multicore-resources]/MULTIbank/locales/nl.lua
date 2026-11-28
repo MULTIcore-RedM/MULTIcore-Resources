@@ -139,4 +139,8 @@ Locales['nl'] = {
     ['k_box_rent'] = 'Kluishuur',
     ['k_box_fee'] = 'Kluiskosten',
     ['k_money_clip'] = 'Geldclip',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Kosten",
+    ["set_withdraw_fee"] = "Opnamekosten",
+    ["set_transfer_fee"] = "Overboekingskosten",
 }

@@ -148,4 +148,8 @@ Locales['en'] = {
     ['k_box_rent'] = 'Box rent',
     ['k_box_fee'] = 'Box fee',
     ['k_money_clip'] = 'Money clip',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Fees",
+    ["set_withdraw_fee"] = "Withdrawal fee",
+    ["set_transfer_fee"] = "Transfer fee",
 }

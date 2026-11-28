@@ -90,4 +90,16 @@ Locales['ja'] = {
     ['cat_ammo'] = '弾薬',
     ['cat_goods'] = '雑貨',
     ['cat_materials'] = '材料',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "価格と在庫",
+    ["setcat_hours"] = "営業時間",
+    ["set_price_multiplier"] = "価格の倍率(プレイヤーが支払う額)",
+    ["set_pay_multiplier"] = "買取の倍率(店が支払う額)",
+    ["set_sell_enabled"] = "プレイヤーが店に売却できる",
+    ["set_max_per_purchase"] = "1回の購入での同一アイテムの上限",
+    ["set_restock_minutes"] = "補充の間隔(分、0 = しない)",
+    ["set_hours_enabled"] = "店に営業時間がある",
+    ["set_hours_open"] = "開店時刻",
+    ["set_hours_close"] = "閉店時刻",
+    ["set_unit_min"] = "分",
 }

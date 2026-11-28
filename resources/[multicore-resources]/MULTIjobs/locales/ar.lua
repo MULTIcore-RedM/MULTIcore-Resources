@@ -200,4 +200,11 @@ Locales['ar'] = {
     ['ui_on_duty_now'] = 'في المناوبة الآن',
     ['ui_roster_help'] = 'يُدفع للموظفين في المناوبة كل راتب. يُخرج الخاملون من المناوبة.',
     ['ui_stash'] = 'المخزن',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "الأجر الذي يحدده الرؤساء",
+    ["setcat_duty"] = "الدوام",
+    ["set_boss_pay_min"] = "أقل أجر لكل دفعة راتب",
+    ["set_boss_pay_max"] = "أعلى أجر لكل دفعة راتب",
+    ["set_afk_minutes"] = "خارج الدوام بعد الوقوف بلا حركة لهذه المدة (0 = أبدًا)",
+    ["set_unit_min"] = "د",
 }

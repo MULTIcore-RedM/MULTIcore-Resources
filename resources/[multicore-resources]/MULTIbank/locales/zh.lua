@@ -148,4 +148,8 @@ Locales['zh'] = {
     ['k_box_rent'] = '保险箱租金',
     ['k_box_fee'] = '保险箱费用',
     ['k_money_clip'] = '钱夹',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "手续费",
+    ["set_withdraw_fee"] = "取款手续费",
+    ["set_transfer_fee"] = "转账手续费",
 }

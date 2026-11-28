@@ -148,4 +148,8 @@ Locales['cs'] = {
     ['k_box_rent'] = 'Nájem schránky',
     ['k_box_fee'] = 'Poplatek za schránku',
     ['k_money_clip'] = 'Spona na peníze',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Poplatky",
+    ["set_withdraw_fee"] = "Poplatek za výběr",
+    ["set_transfer_fee"] = "Poplatek za převod",
 }

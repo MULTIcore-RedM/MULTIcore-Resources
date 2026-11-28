@@ -148,4 +148,8 @@ Locales['ro'] = {
     ['k_box_rent'] = 'Chirie casetă',
     ['k_box_fee'] = 'Taxă casetă',
     ['k_money_clip'] = 'Clamă de bani',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Comisioane",
+    ["set_withdraw_fee"] = "Comision de retragere",
+    ["set_transfer_fee"] = "Comision de transfer",
 }

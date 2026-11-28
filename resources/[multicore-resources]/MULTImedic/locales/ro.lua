@@ -90,4 +90,8 @@ Locales['ro'] = {
     ['log_title'] = '%s (%s) a murit',
     ['log_text'] = '%s a fost ucis de %s (cauza %s)',
     ['log_unknown'] = 'necunoscut',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Moarte",
+    ["set_respawn_timer"] = "Secunde până când un jucător doborât poate reapărea",
+    ["set_unit_sec"] = "s",
 }

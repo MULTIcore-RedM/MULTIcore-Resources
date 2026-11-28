@@ -90,4 +90,16 @@ Locales['vi'] = {
     ['cat_ammo'] = 'Đạn',
     ['cat_goods'] = 'Hàng hóa',
     ['cat_materials'] = 'Nguyên liệu',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Giá và hàng tồn",
+    ["setcat_hours"] = "Giờ mở cửa",
+    ["set_price_multiplier"] = "Hệ số giá (số tiền người chơi trả)",
+    ["set_pay_multiplier"] = "Hệ số thu mua (số tiền cửa hàng trả)",
+    ["set_sell_enabled"] = "Người chơi có thể bán cho cửa hàng",
+    ["set_max_per_purchase"] = "Số lượng tối đa một món mỗi lần mua",
+    ["set_restock_minutes"] = "Số phút giữa các lần nhập hàng (0 = không bao giờ)",
+    ["set_hours_enabled"] = "Cửa hàng có giờ mở cửa",
+    ["set_hours_open"] = "Giờ mở cửa",
+    ["set_hours_close"] = "Giờ đóng cửa",
+    ["set_unit_min"] = "phút",
 }

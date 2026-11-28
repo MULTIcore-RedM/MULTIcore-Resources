@@ -148,4 +148,8 @@ Locales['ar'] = {
     ['k_box_rent'] = 'أجرة الصندوق',
     ['k_box_fee'] = 'رسوم الصندوق',
     ['k_money_clip'] = 'مشبك مال',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "الرسوم",
+    ["set_withdraw_fee"] = "رسوم السحب",
+    ["set_transfer_fee"] = "رسوم التحويل",
 }

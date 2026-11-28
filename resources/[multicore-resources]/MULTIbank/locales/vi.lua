@@ -148,4 +148,8 @@ Locales['vi'] = {
     ['k_box_rent'] = 'Tiền thuê két',
     ['k_box_fee'] = 'Phí két',
     ['k_money_clip'] = 'Kẹp tiền',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Phí",
+    ["set_withdraw_fee"] = "Phí rút tiền",
+    ["set_transfer_fee"] = "Phí chuyển tiền",
 }

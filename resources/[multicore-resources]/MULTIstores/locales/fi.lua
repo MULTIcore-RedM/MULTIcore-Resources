@@ -90,4 +90,16 @@ Locales['fi'] = {
     ['cat_ammo'] = 'Ammukset',
     ['cat_goods'] = 'Tavarat',
     ['cat_materials'] = 'Tarvikkeet',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Hinnat ja varasto",
+    ["setcat_hours"] = "Aukioloajat",
+    ["set_price_multiplier"] = "Hintakerroin (mitä pelaajat maksavat)",
+    ["set_pay_multiplier"] = "Ostohintakerroin (mitä kaupat maksavat)",
+    ["set_sell_enabled"] = "Pelaajat voivat myydä kaupoille",
+    ["set_max_per_purchase"] = "Suurin määrä yhtä tuotetta per osto",
+    ["set_restock_minutes"] = "Minuutteja täydennysten välillä (0 = ei koskaan)",
+    ["set_hours_enabled"] = "Kaupoilla on aukioloajat",
+    ["set_hours_open"] = "Avaamistunti",
+    ["set_hours_close"] = "Sulkemistunti",
+    ["set_unit_min"] = "min",
 }

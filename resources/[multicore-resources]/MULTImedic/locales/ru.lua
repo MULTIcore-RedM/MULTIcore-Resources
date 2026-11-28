@@ -82,4 +82,8 @@ Locales['ru'] = {
     ["log_title"] = "%s (%s) погиб",
     ["log_text"] = "%s убит: %s (причина %s)",
     ["log_unknown"] = "неизвестно",
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Смерть",
+    ["set_respawn_timer"] = "Секунд до возрождения поверженного игрока",
+    ["set_unit_sec"] = "с",
 }

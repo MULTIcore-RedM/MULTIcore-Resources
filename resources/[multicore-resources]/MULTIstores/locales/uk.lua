@@ -90,4 +90,16 @@ Locales['uk'] = {
     ['cat_ammo'] = 'Набої',
     ['cat_goods'] = 'Товари',
     ['cat_materials'] = 'Матеріали',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Ціни та запаси",
+    ["setcat_hours"] = "Години роботи",
+    ["set_price_multiplier"] = "Множник цін (скільки платять гравці)",
+    ["set_pay_multiplier"] = "Множник виплат (скільки платять крамниці)",
+    ["set_sell_enabled"] = "Гравці можуть продавати крамницям",
+    ["set_max_per_purchase"] = "Макс. кількість одного предмета за покупку",
+    ["set_restock_minutes"] = "Хвилин між поповненнями (0 = ніколи)",
+    ["set_hours_enabled"] = "Крамниці мають години роботи",
+    ["set_hours_open"] = "Година відкриття",
+    ["set_hours_close"] = "Година закриття",
+    ["set_unit_min"] = "хв",
 }

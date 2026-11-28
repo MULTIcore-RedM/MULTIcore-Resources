@@ -200,4 +200,11 @@ Locales['pl'] = {
     ['ui_on_duty_now'] = 'teraz na służbie',
     ['ui_roster_help'] = 'Pracownicy na służbie dostają każdą wypłatę. Bezczynnych zdejmuje się ze służby.',
     ['ui_stash'] = 'Schowek',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Wypłata ustawiana przez szefów",
+    ["setcat_duty"] = "Służba",
+    ["set_boss_pay_min"] = "Najniższa wypłata",
+    ["set_boss_pay_max"] = "Najwyższa wypłata",
+    ["set_afk_minutes"] = "Koniec służby po tak długim staniu w miejscu (0 = nigdy)",
+    ["set_unit_min"] = "min",
 }

@@ -200,4 +200,11 @@ Locales['en'] = {
     ['ui_on_duty_now'] = 'on duty right now',
     ['ui_roster_help'] = 'Staff on duty are paid every paycheck. Idle staff are taken off duty.',
     ['ui_stash'] = 'Storage',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Pay bosses may set",
+    ["setcat_duty"] = "Duty",
+    ["set_boss_pay_min"] = "Lowest pay per paycheck",
+    ["set_boss_pay_max"] = "Highest pay per paycheck",
+    ["set_afk_minutes"] = "Off duty after standing still this long (0 = never)",
+    ["set_unit_min"] = "min",
 }

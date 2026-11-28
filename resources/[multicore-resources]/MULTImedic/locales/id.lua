@@ -90,4 +90,8 @@ Locales['id'] = {
     ['log_title'] = '%s (%s) mati',
     ['log_text'] = '%s dibunuh oleh %s (penyebab %s)',
     ['log_unknown'] = 'tidak diketahui',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Kematian",
+    ["set_respawn_timer"] = "Detik sebelum pemain yang tumbang boleh respawn",
+    ["set_unit_sec"] = "dtk",
 }

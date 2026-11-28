@@ -90,4 +90,8 @@ Locales['el'] = {
     ['log_title'] = 'Ο %s (%s) πέθανε',
     ['log_text'] = 'Ο %s σκοτώθηκε από %s (αιτία %s)',
     ['log_unknown'] = 'άγνωστο',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Θάνατος",
+    ["set_respawn_timer"] = "Δευτερόλεπτα πριν ένας πεσμένος παίκτης μπορεί να αναγεννηθεί",
+    ["set_unit_sec"] = "δ.",
 }

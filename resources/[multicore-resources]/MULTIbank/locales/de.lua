@@ -139,4 +139,8 @@ Locales['de'] = {
     ['k_box_rent'] = 'Fachmiete',
     ['k_box_fee'] = 'Fachgebühr',
     ['k_money_clip'] = 'Geldklammer',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Gebühren",
+    ["set_withdraw_fee"] = "Abhebegebühr",
+    ["set_transfer_fee"] = "Überweisungsgebühr",
 }

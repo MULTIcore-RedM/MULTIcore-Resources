@@ -292,12 +292,12 @@ end)
 -- no pay for idling: standing still on duty for too long puts the player off duty
 ---------------------------------
 CreateThread(function()
-    local minutes = Config.Duty.AfkMinutes or 0
-    if minutes <= 0 then return end
     local mark, idleSince = nil, nil
     while true do
         Wait(30000)
-        local job = pdata().job
+        -- read each time: an admin may change it in game (settings.lua)
+        local minutes = tonumber(Config.Duty.AfkMinutes) or 0
+        local job = minutes > 0 and pdata().job or nil
         if job and job.onduty and job.name ~= 'unemployed' then
             local pos = myPos()
             if mark and #(pos - mark) < Config.Duty.AfkMoveMetres then

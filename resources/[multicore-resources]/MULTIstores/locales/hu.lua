@@ -90,4 +90,16 @@ Locales['hu'] = {
     ['cat_ammo'] = 'Lőszer',
     ['cat_goods'] = 'Áruk',
     ['cat_materials'] = 'Nyersanyagok',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Árak és készlet",
+    ["setcat_hours"] = "Nyitvatartás",
+    ["set_price_multiplier"] = "Árszorzó (amit a játékosok fizetnek)",
+    ["set_pay_multiplier"] = "Felvásárlási szorzó (amit a boltok fizetnek)",
+    ["set_sell_enabled"] = "A játékosok eladhatnak a boltoknak",
+    ["set_max_per_purchase"] = "Egy tételből legfeljebb vásárlásonként",
+    ["set_restock_minutes"] = "Percek két feltöltés között (0 = soha)",
+    ["set_hours_enabled"] = "A boltoknak van nyitvatartása",
+    ["set_hours_open"] = "Nyitás órája",
+    ["set_hours_close"] = "Zárás órája",
+    ["set_unit_min"] = "min",
 }

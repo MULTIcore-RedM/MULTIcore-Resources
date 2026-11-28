@@ -90,4 +90,8 @@ Locales['th'] = {
     ['log_title'] = '%s (%s) เสียชีวิต',
     ['log_text'] = '%s ถูกฆ่าโดย %s (สาเหตุ %s)',
     ['log_unknown'] = 'ไม่ทราบ',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "ความตาย",
+    ["set_respawn_timer"] = "วินาทีก่อนที่ผู้เล่นที่ล้มลงจะเกิดใหม่ได้",
+    ["set_unit_sec"] = "วิ",
 }

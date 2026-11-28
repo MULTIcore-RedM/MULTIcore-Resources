@@ -200,4 +200,11 @@ Locales['hr'] = {
     ['ui_on_duty_now'] = 'trenutno na dužnosti',
     ['ui_roster_help'] = 'Osoblje na dužnosti dobiva plaću pri svakoj isplati. Besposleni se skidaju s dužnosti.',
     ['ui_stash'] = 'Spremište',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Plaća koju šefovi smiju odrediti",
+    ["setcat_duty"] = "Služba",
+    ["set_boss_pay_min"] = "Najniža plaća po isplati",
+    ["set_boss_pay_max"] = "Najviša plaća po isplati",
+    ["set_afk_minutes"] = "Izlaz iz službe nakon ovoliko mirovanja (0 = nikad)",
+    ["set_unit_min"] = "min",
 }

@@ -86,4 +86,16 @@ Locales['nl'] = {
     ['cat_ammo'] = 'Munitie',
     ['cat_goods'] = 'Waren',
     ['cat_materials'] = 'Materialen',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Prijzen en voorraad",
+    ["setcat_hours"] = "Openingstijden",
+    ["set_price_multiplier"] = "Prijsfactor (wat spelers betalen)",
+    ["set_pay_multiplier"] = "Inkoopfactor (wat winkels betalen)",
+    ["set_sell_enabled"] = "Spelers kunnen aan winkels verkopen",
+    ["set_max_per_purchase"] = "Maximaal aantal van één item per aankoop",
+    ["set_restock_minutes"] = "Minuten tussen aanvullingen (0 = nooit)",
+    ["set_hours_enabled"] = "Winkels hebben openingstijden",
+    ["set_hours_open"] = "Openingsuur",
+    ["set_hours_close"] = "Sluitingsuur",
+    ["set_unit_min"] = "min",
 }

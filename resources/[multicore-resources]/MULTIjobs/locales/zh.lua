@@ -200,4 +200,11 @@ Locales['zh'] = {
     ['ui_on_duty_now'] = '正在值班',
     ['ui_roster_help'] = '值班的员工每次发薪都有工资。闲置的员工会被下班。',
     ['ui_stash'] = '储物',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "老板可设置的薪资",
+    ["setcat_duty"] = "值班",
+    ["set_boss_pay_min"] = "每次发薪的最低薪资",
+    ["set_boss_pay_max"] = "每次发薪的最高薪资",
+    ["set_afk_minutes"] = "站立不动超过此时间后下班（0 = 从不）",
+    ["set_unit_min"] = "分钟",
 }

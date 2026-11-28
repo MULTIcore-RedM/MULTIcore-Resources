@@ -200,4 +200,11 @@ Locales['fi'] = {
     ['ui_on_duty_now'] = 'vuorossa juuri nyt',
     ['ui_roster_help'] = 'Vuorossa oleville maksetaan joka palkkapäivä. Toimettomat otetaan pois vuorosta.',
     ['ui_stash'] = 'Varasto',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Palkka, jonka pomot saavat asettaa",
+    ["setcat_duty"] = "Työvuoro",
+    ["set_boss_pay_min"] = "Pienin palkka palkanmaksua kohden",
+    ["set_boss_pay_max"] = "Suurin palkka palkanmaksua kohden",
+    ["set_afk_minutes"] = "Pois vuorosta, kun on seissyt paikallaan näin kauan (0 = ei koskaan)",
+    ["set_unit_min"] = "min",
 }

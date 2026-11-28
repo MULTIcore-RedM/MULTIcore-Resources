@@ -90,4 +90,16 @@ Locales['hr'] = {
     ['cat_ammo'] = 'Streljivo',
     ['cat_goods'] = 'Roba',
     ['cat_materials'] = 'Materijali',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Cijene i zalihe",
+    ["setcat_hours"] = "Radno vrijeme",
+    ["set_price_multiplier"] = "Množitelj cijena (što plaćaju igrači)",
+    ["set_pay_multiplier"] = "Množitelj otkupa (što plaćaju trgovine)",
+    ["set_sell_enabled"] = "Igrači mogu prodavati trgovinama",
+    ["set_max_per_purchase"] = "Najviše jednog predmeta po kupnji",
+    ["set_restock_minutes"] = "Minuta između popunjavanja zaliha (0 = nikad)",
+    ["set_hours_enabled"] = "Trgovine imaju radno vrijeme",
+    ["set_hours_open"] = "Sat otvaranja",
+    ["set_hours_close"] = "Sat zatvaranja",
+    ["set_unit_min"] = "min",
 }

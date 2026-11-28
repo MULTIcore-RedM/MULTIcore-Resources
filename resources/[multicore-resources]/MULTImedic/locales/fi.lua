@@ -90,4 +90,8 @@ Locales['fi'] = {
     ['log_title'] = '%s (%s) kuoli',
     ['log_text'] = '%s kuoli, tappaja %s (syy %s)',
     ['log_unknown'] = 'tuntematon',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Kuolema",
+    ["set_respawn_timer"] = "Sekunteja ennen kuin kaatunut pelaaja saa herätä uudelleen",
+    ["set_unit_sec"] = "s",
 }

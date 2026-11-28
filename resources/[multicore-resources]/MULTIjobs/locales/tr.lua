@@ -200,4 +200,11 @@ Locales['tr'] = {
     ['ui_on_duty_now'] = 'şu an mesaide',
     ['ui_roster_help'] = 'Mesaideki çalışanlara her maaşta ödeme yapılır. Boş duranlar mesaiden çıkarılır.',
     ['ui_stash'] = 'Depo',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Patronların belirleyebileceği maaş",
+    ["setcat_duty"] = "Görev",
+    ["set_boss_pay_min"] = "Maaş ödemesi başına en düşük maaş",
+    ["set_boss_pay_max"] = "Maaş ödemesi başına en yüksek maaş",
+    ["set_afk_minutes"] = "Bu kadar hareketsiz kalınca görev dışı (0 = hiç)",
+    ["set_unit_min"] = "dk",
 }

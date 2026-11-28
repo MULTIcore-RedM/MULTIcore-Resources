@@ -90,4 +90,16 @@ Locales['sv'] = {
     ['cat_ammo'] = 'Ammunition',
     ['cat_goods'] = 'Varor',
     ['cat_materials'] = 'Material',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Priser och lager",
+    ["setcat_hours"] = "Öppettider",
+    ["set_price_multiplier"] = "Prismultiplikator (vad spelarna betalar)",
+    ["set_pay_multiplier"] = "Uppköpsmultiplikator (vad butikerna betalar)",
+    ["set_sell_enabled"] = "Spelare kan sälja till butiker",
+    ["set_max_per_purchase"] = "Mest av en sak per köp",
+    ["set_restock_minutes"] = "Minuter mellan påfyllningar (0 = aldrig)",
+    ["set_hours_enabled"] = "Butikerna har öppettider",
+    ["set_hours_open"] = "Öppningstimme",
+    ["set_hours_close"] = "Stängningstimme",
+    ["set_unit_min"] = "min",
 }

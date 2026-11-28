@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MULTIcatalog</title>
+    <link rel="stylesheet" href="nui://MULTIcore/html/theme/multi.css">
+    <script src="nui://MULTIcore/html/theme/preset.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+<!-- MULTIcatalog page (GPL v3, part of MULTIcore by RINGO (RINGOscripting)).
+     Every label comes from locales/*.lua (data-l = text). -->
+<div id="cat" class="mc-root mc-hidden">
+    <section class="book mc-panel mc-fade">
+        <img class="mc-brand mc-brand-corner" src="nui://MULTIcore/html/theme/img/mc-mark.png" alt="">
+        <header class="head">
+            <h1 class="mc-title" data-l="title"></h1>
+            <div class="where mc-note"><span id="where"></span><span id="delivery"></span></div>
+        </header>
+
+        <nav class="mc-tabs" id="tabs">
+            <button class="mc-tab" data-tab="catalog" data-l="ui_tab_catalog"></button>
+            <button class="mc-tab" data-tab="orders"><span data-l="ui_tab_orders"></span> <span class="count" id="openCount"></span></button>
+        </nav>
+
+        <!-- catalog: sections and goods on the left, the order form on the right -->
+        <div class="pane" data-pane="catalog">
+            <div class="col">
+                <div class="cats" id="cats"></div>
+                <div class="goods mc-scroll" id="goods"></div>
+            </div>
+            <div class="col form">
+                <div class="sheet">
+                    <div class="sheet-title" data-l="ui_basket"></div>
+                    <div class="lines mc-scroll" id="lines"></div>
+                    <div class="sum"><span data-l="ui_total"></span><span class="mc-money" id="total"></span></div>
+                    <div class="mc-note units" id="units"></div>
+                    <div class="mc-field">
+                        <label for="office" data-l="ui_send_to"></label>
+                        <select class="mc-select" id="office"></select>
+                    </div>
+                    <div class="mc-note away" id="away"></div>
+                </div>
+                <div class="mc-btn-row actions">
+                    <button class="mc-btn primary" id="btnOrder" data-l="ui_order"></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- orders: parcels on the way, waiting and collected -->
+        <div class="pane mc-hidden" data-pane="orders">
+            <div class="orders mc-scroll" id="orders"></div>
+        </div>
+
+        <div class="msg" id="msg"></div>
+        <footer class="foot">
+            <span class="mc-note" id="cash"></span>
+            <button class="mc-btn small mc-hidden" id="btnTake"></button>
+            <span class="mc-note leave"><span class="mc-key">Esc</span><span data-l="ui_leave"></span></span>
+            <button class="mc-btn small" id="close" data-l="ui_close"></button>
+        </footer>
+    </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

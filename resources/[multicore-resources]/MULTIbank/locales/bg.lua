@@ -148,4 +148,8 @@ Locales['bg'] = {
     ['k_box_rent'] = 'Наем на сейф',
     ['k_box_fee'] = 'Такса за сейф',
     ['k_money_clip'] = 'Щипка за пари',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Такси",
+    ["set_withdraw_fee"] = "Такса за теглене",
+    ["set_transfer_fee"] = "Такса за превод",
 }

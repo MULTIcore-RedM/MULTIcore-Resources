@@ -200,4 +200,11 @@ Locales['hu'] = {
     ['ui_on_duty_now'] = 'most szolgálatban',
     ['ui_roster_help'] = 'A szolgálatban lévők minden fizetéskor bért kapnak. A tétlenek kikerülnek a szolgálatból.',
     ['ui_stash'] = 'Raktár',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "A főnökök által megadható fizetés",
+    ["setcat_duty"] = "Szolgálat",
+    ["set_boss_pay_min"] = "Legalacsonyabb fizetés kifizetésenként",
+    ["set_boss_pay_max"] = "Legmagasabb fizetés kifizetésenként",
+    ["set_afk_minutes"] = "Szolgálaton kívül ennyi mozdulatlanság után (0 = soha)",
+    ["set_unit_min"] = "min",
 }

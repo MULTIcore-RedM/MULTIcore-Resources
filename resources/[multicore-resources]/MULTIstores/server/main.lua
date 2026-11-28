@@ -36,6 +36,18 @@ local function round2(n) return math.floor((tonumber(n) or 0) * 100 + 0.5) / 100
 local function money(n) return ('%s%.2f'):format(Config.CurrencySign or '$', n or 0) end
 MS.Round2 = round2
 
+-- Config.PriceMultiplier and Config.Sell.PayMultiplier (config.lua, or changed in game): the price a player pays and
+-- what a store pays. A store never pays at a higher multiplier than it sells at, so the no-money-loop rule holds.
+local function priceOf(e)
+    return round2(e.price * (tonumber(Config.PriceMultiplier) or 1.0))
+end
+local function payOf(e)
+    local buyMult = tonumber(Config.PriceMultiplier) or 1.0
+    local payMult = math.min(tonumber(Config.Sell.PayMultiplier) or 1.0, buyMult)
+    return e.buyPrice * payMult
+end
+MS.PriceOf, MS.PayOf = priceOf, payOf
+
 local function posInt(v, max)
     v = tonumber(v)
     if not v or v ~= v or v < 1 or v ~= math.floor(v) then return nil end
@@ -118,12 +130,29 @@ end
 --- One store entry from an rsg-inventory-shaped item, or nil (unknown item / bad data).
 --- lateList (config stores only): an unknown item is noted there instead of warned about,
 --- because another resource may still register it (see Config.LateItemSeconds).
+--- defCache: set only while the config stores are built at start (one GetItemDef per item name,
+--- a short yield every 50 entries); false = asked and not registered yet
+local defCache, entryCount
+local function itemDef(lname)
+    if not defCache then return MI:GetItemDef(lname) end
+    local d = defCache[lname]
+    if d == nil then
+        d = MI:GetItemDef(lname) or false
+        defCache[lname] = d
+    end
+    return d or nil
+end
+
 local function makeEntry(storeName, it, idx, lateList)
     if type(it) ~= 'table' or type(it.name) ~= 'string' then
         warn(('store %s: item %s has no name, skipped'):format(storeName, tostring(idx)))
         return nil
     end
-    local def = MI:GetItemDef(it.name:lower())
+    if defCache then
+        entryCount = entryCount + 1
+        if entryCount % 50 == 0 then Wait(0) end
+    end
+    local def = itemDef(it.name:lower())
     if not def and lateList then
         lateList[#lateList + 1] = { store = storeName, it = it, idx = idx }
         return nil
@@ -369,7 +398,7 @@ local function sellList(src, store)
         local e = store.buys[s.name]
         if e and e.canRemove then
             local q = type(s.info) == 'table' and tonumber(s.info.quality) or nil
-            local each = e.buyPrice
+            local each = round2(payOf(e))
             if q and Config.Sell.QualityScales then each = round2(each * math.max(0, math.min(100, q)) / 100) end
             out[#out + 1] = {
                 slot = tonumber(s.slot) or tonumber(slot), name = s.name, label = (type(s.info) == 'table' and s.info.label) or e.label,
@@ -391,7 +420,7 @@ function MS.State(src, store)
         if e.price then
             items[#items + 1] = {
                 i = e.index, name = e.name, label = e.label, desc = e.description, image = e.image,
-                price = e.price, stock = e.amount, category = e.category, weight = e.weight,
+                price = priceOf(e), stock = e.amount, category = e.category, weight = e.weight,
             }
         end
     end
@@ -471,7 +500,8 @@ local function doBuy(src, name, index, amount)
     if not pid then return false, 'no_player' end
     local can, cerr = MI:CanAdd(pid, e.name, amount, e.info)
     if not can then return false, cerr or 'no_space' end
-    local total = round2(e.price * amount)
+    local each = priceOf(e)
+    local total = round2(each * amount)
     local have = tonumber(P.Functions.GetMoney(Config.Currency)) or 0
     if total > 0 and (have < total or not P.Functions.RemoveMoney(Config.Currency, total, 'store ' .. store.name)) then
         return false, 'no_money'
@@ -488,7 +518,7 @@ local function doBuy(src, name, index, amount)
         if MI:AddItem(pid, e.name, amount, e.info, nil, 'store ' .. store.name) then given = amount end
     end
     if given < amount then
-        local back = round2(e.price * (amount - given))
+        local back = round2(each * (amount - given))
         if back > 0 then P.Functions.AddMoney(Config.Currency, back, 'store refund ' .. store.name) end
         if given == 0 then return false, 'no_space' end
         total = round2(total - back)
@@ -520,7 +550,7 @@ local function doSell(src, name, slot, amount)
     local q = type(stack.info) == 'table' and tonumber(stack.info.quality) or nil
     if e.minQuality and q and q < e.minQuality then return false, 'quality_low' end
     if e.amount ~= nil and e.maxStock and e.amount + amount > e.maxStock then return false, 'store_full' end
-    local each = e.buyPrice
+    local each = payOf(e)
     if q and Config.Sell.QualityScales then each = each * math.max(0, math.min(100, q)) / 100 end
     local total = round2(each * amount)
     if total <= 0 then return false, 'worthless' end
@@ -719,6 +749,7 @@ end
 local function buildConfigStores()
     local gunsmith
     local n = 0
+    defCache, entryCount = {}, 0
     for _, s in ipairs(Config.Stores or {}) do
         local t = Config.Types[s.type]
         if t and t.enabled ~= false and s.enabled ~= false then
@@ -746,6 +777,7 @@ local function buildConfigStores()
             warn(('store %s: unknown type "%s", skipped'):format(tostring(s.name), tostring(s.type)))
         end
     end
+    defCache, entryCount = nil, nil
     return n
 end
 
@@ -766,7 +798,7 @@ CreateThread(function()
     -- items registered a moment later by other resources join their stores as they appear
     local waitUntil = GetGameTimer() + math.max(0, tonumber(Config.LateItemSeconds) or 60) * 1000
     while #lateItems > 0 and GetGameTimer() < waitUntil do
-        Wait(500)
+        Wait(math.min(5000, math.max(0, waitUntil - GetGameTimer())))
         addLateItems()
     end
     for _, l in ipairs(lateItems) do

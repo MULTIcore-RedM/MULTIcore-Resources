@@ -90,4 +90,16 @@ Locales['zh'] = {
     ['cat_ammo'] = '弹药',
     ['cat_goods'] = '杂货',
     ['cat_materials'] = '材料',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "价格与库存",
+    ["setcat_hours"] = "营业时间",
+    ["set_price_multiplier"] = "价格倍率（玩家支付的价格）",
+    ["set_pay_multiplier"] = "收购倍率（商店支付的价格）",
+    ["set_sell_enabled"] = "玩家可以向商店出售",
+    ["set_max_per_purchase"] = "单次购买同一物品的最大数量",
+    ["set_restock_minutes"] = "补货间隔（分钟，0 = 从不）",
+    ["set_hours_enabled"] = "商店有营业时间",
+    ["set_hours_open"] = "开门时间",
+    ["set_hours_close"] = "关门时间",
+    ["set_unit_min"] = "分钟",
 }

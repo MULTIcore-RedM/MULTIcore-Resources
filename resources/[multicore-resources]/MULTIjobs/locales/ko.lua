@@ -200,4 +200,11 @@ Locales['ko'] = {
     ['ui_on_duty_now'] = '지금 근무 중',
     ['ui_roster_help'] = '근무 중인 직원은 급여 때마다 돈을 받습니다. 가만히 있는 직원은 근무에서 빠집니다.',
     ['ui_stash'] = '창고',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "보스가 정할 수 있는 급여",
+    ["setcat_duty"] = "근무",
+    ["set_boss_pay_min"] = "급여 1회당 최저 금액",
+    ["set_boss_pay_max"] = "급여 1회당 최고 금액",
+    ["set_afk_minutes"] = "이 시간 동안 가만히 서 있으면 근무 해제 (0 = 안 함)",
+    ["set_unit_min"] = "분",
 }

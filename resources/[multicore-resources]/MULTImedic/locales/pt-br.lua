@@ -82,4 +82,8 @@ Locales['pt-br'] = {
     ["log_title"] = "%s (%s) morreu",
     ["log_text"] = "%s foi morto por %s (causa %s)",
     ["log_unknown"] = "desconhecido",
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Morte",
+    ["set_respawn_timer"] = "Segundos antes de um jogador caído poder renascer",
+    ["set_unit_sec"] = "s",
 }

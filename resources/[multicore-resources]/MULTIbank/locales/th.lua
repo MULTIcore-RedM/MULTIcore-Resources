@@ -148,4 +148,8 @@ Locales['th'] = {
     ['k_box_rent'] = 'ค่าเช่าตู้',
     ['k_box_fee'] = 'ค่าธรรมเนียมตู้',
     ['k_money_clip'] = 'คลิปหนีบเงิน',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "ค่าธรรมเนียม",
+    ["set_withdraw_fee"] = "ค่าธรรมเนียมการถอน",
+    ["set_transfer_fee"] = "ค่าธรรมเนียมการโอน",
 }

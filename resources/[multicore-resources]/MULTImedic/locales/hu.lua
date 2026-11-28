@@ -90,4 +90,8 @@ Locales['hu'] = {
     ['log_title'] = '%s (%s) meghalt',
     ['log_text'] = '%s halálát okozta: %s (ok: %s)',
     ['log_unknown'] = 'ismeretlen',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Halál",
+    ["set_respawn_timer"] = "Másodpercek, mielőtt egy leterített játékos újraéledhet",
+    ["set_unit_sec"] = "s",
 }

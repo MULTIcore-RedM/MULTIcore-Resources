@@ -82,4 +82,8 @@ Locales['tr'] = {
     ["log_title"] = "%s (%s) öldü",
     ["log_text"] = "%s, %s tarafından öldürüldü (sebep %s)",
     ["log_unknown"] = "bilinmiyor",
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Ölüm",
+    ["set_respawn_timer"] = "Yaralı bir oyuncunun yeniden doğabilmesinden önceki saniye",
+    ["set_unit_sec"] = "sn",
 }

@@ -90,4 +90,16 @@ Locales['ko'] = {
     ['cat_ammo'] = '탄약',
     ['cat_goods'] = '물품',
     ['cat_materials'] = '재료',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "가격 및 재고",
+    ["setcat_hours"] = "영업 시간",
+    ["set_price_multiplier"] = "가격 배율 (플레이어가 지불하는 금액)",
+    ["set_pay_multiplier"] = "매입 배율 (상점이 지불하는 금액)",
+    ["set_sell_enabled"] = "플레이어가 상점에 판매 가능",
+    ["set_max_per_purchase"] = "1회 구매 시 같은 아이템 최대 수량",
+    ["set_restock_minutes"] = "재입고 간격(분, 0 = 안 함)",
+    ["set_hours_enabled"] = "상점 영업 시간 적용",
+    ["set_hours_open"] = "개점 시각",
+    ["set_hours_close"] = "폐점 시각",
+    ["set_unit_min"] = "분",
 }

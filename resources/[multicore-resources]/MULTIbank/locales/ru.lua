@@ -139,4 +139,8 @@ Locales['ru'] = {
     ['k_box_rent'] = 'Аренда ячейки',
     ['k_box_fee'] = 'Плата за ячейку',
     ['k_money_clip'] = 'Зажим для денег',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Комиссии",
+    ["set_withdraw_fee"] = "Комиссия за снятие",
+    ["set_transfer_fee"] = "Комиссия за перевод",
 }

@@ -90,4 +90,16 @@ Locales['el'] = {
     ['cat_ammo'] = 'Πυρομαχικά',
     ['cat_goods'] = 'Είδη',
     ['cat_materials'] = 'Υλικά',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Τιμές και απόθεμα",
+    ["setcat_hours"] = "Ώρες λειτουργίας",
+    ["set_price_multiplier"] = "Πολλαπλασιαστής τιμών (όσα πληρώνουν οι παίκτες)",
+    ["set_pay_multiplier"] = "Πολλαπλασιαστής αγοράς (όσα πληρώνουν τα καταστήματα)",
+    ["set_sell_enabled"] = "Οι παίκτες μπορούν να πουλούν στα καταστήματα",
+    ["set_max_per_purchase"] = "Μέγιστο πλήθος ενός αντικειμένου ανά αγορά",
+    ["set_restock_minutes"] = "Λεπτά ανάμεσα στους ανεφοδιασμούς (0 = ποτέ)",
+    ["set_hours_enabled"] = "Τα καταστήματα τηρούν ώρες λειτουργίας",
+    ["set_hours_open"] = "Ώρα ανοίγματος",
+    ["set_hours_close"] = "Ώρα κλεισίματος",
+    ["set_unit_min"] = "λεπτ.",
 }

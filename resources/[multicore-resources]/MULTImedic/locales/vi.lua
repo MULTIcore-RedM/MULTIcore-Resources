@@ -90,4 +90,8 @@ Locales['vi'] = {
     ['log_title'] = '%s (%s) đã chết',
     ['log_text'] = '%s bị giết bởi %s (nguyên nhân %s)',
     ['log_unknown'] = 'không rõ',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Tử vong",
+    ["set_respawn_timer"] = "Số giây trước khi người chơi gục ngã được hồi sinh",
+    ["set_unit_sec"] = "giây",
 }

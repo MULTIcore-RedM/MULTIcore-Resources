@@ -200,4 +200,11 @@ Locales['de'] = {
     ['ui_on_duty_now'] = 'gerade im Dienst',
     ['ui_roster_help'] = 'Personal im Dienst wird bei jeder Lohnzahlung bezahlt. Untätiges Personal wird vom Dienst abgezogen.',
     ['ui_stash'] = 'Lager',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Lohn, den Chefs festlegen dürfen",
+    ["setcat_duty"] = "Dienst",
+    ["set_boss_pay_min"] = "Niedrigster Lohn pro Zahlung",
+    ["set_boss_pay_max"] = "Höchster Lohn pro Zahlung",
+    ["set_afk_minutes"] = "Dienstende nach so langem Stillstehen (0 = nie)",
+    ["set_unit_min"] = "min",
 }

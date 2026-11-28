@@ -90,4 +90,16 @@ Locales['bg'] = {
     ['cat_ammo'] = 'Муниции',
     ['cat_goods'] = 'Стоки',
     ['cat_materials'] = 'Материали',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Цени и наличности",
+    ["setcat_hours"] = "Работно време",
+    ["set_price_multiplier"] = "Множител на цените (колкото плащат играчите)",
+    ["set_pay_multiplier"] = "Множител на изкупуване (колкото плащат магазините)",
+    ["set_sell_enabled"] = "Играчите могат да продават на магазините",
+    ["set_max_per_purchase"] = "Най-много от един предмет на покупка",
+    ["set_restock_minutes"] = "Минути между зареждания (0 = никога)",
+    ["set_hours_enabled"] = "Магазините спазват работно време",
+    ["set_hours_open"] = "Час на отваряне",
+    ["set_hours_close"] = "Час на затваряне",
+    ["set_unit_min"] = "мин",
 }

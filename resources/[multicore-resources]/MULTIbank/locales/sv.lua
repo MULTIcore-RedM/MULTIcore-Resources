@@ -148,4 +148,8 @@ Locales['sv'] = {
     ['k_box_rent'] = 'Fackhyra',
     ['k_box_fee'] = 'Fackavgift',
     ['k_money_clip'] = 'Sedelklämma',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Avgifter",
+    ["set_withdraw_fee"] = "Uttagsavgift",
+    ["set_transfer_fee"] = "Överföringsavgift",
 }

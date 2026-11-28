@@ -148,4 +148,8 @@ Locales['fi'] = {
     ['k_box_rent'] = 'Lokerovuokra',
     ['k_box_fee'] = 'Lokeromaksu',
     ['k_money_clip'] = 'Setelinippu',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Maksut",
+    ["set_withdraw_fee"] = "Nostomaksu",
+    ["set_transfer_fee"] = "Siirtomaksu",
 }

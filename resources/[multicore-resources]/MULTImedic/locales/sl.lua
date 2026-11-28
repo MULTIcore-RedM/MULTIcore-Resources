@@ -90,4 +90,8 @@ Locales['sl'] = {
     ['log_title'] = '%s (%s) je umrl',
     ['log_text'] = '%s je bil ubit, ubijalec: %s (vzrok %s)',
     ['log_unknown'] = 'neznano',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Smrt",
+    ["set_respawn_timer"] = "Sekund, preden se lahko podrt igralec znova rodi",
+    ["set_unit_sec"] = "s",
 }

@@ -86,4 +86,16 @@ Locales['tr'] = {
     ['cat_ammo'] = 'Mühimmat',
     ['cat_goods'] = 'Mallar',
     ['cat_materials'] = 'Malzemeler',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Fiyatlar ve stok",
+    ["setcat_hours"] = "Çalışma saatleri",
+    ["set_price_multiplier"] = "Fiyat çarpanı (oyuncuların ödediği)",
+    ["set_pay_multiplier"] = "Alım çarpanı (dükkânların ödediği)",
+    ["set_sell_enabled"] = "Oyuncular dükkânlara satış yapabilir",
+    ["set_max_per_purchase"] = "Tek alışverişte bir üründen en fazla",
+    ["set_restock_minutes"] = "Stok yenileme arası dakika (0 = hiç)",
+    ["set_hours_enabled"] = "Dükkânların çalışma saatleri var",
+    ["set_hours_open"] = "Açılış saati",
+    ["set_hours_close"] = "Kapanış saati",
+    ["set_unit_min"] = "dk",
 }

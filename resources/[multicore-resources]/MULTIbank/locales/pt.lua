@@ -148,4 +148,8 @@ Locales['pt'] = {
     ['k_box_rent'] = 'Renda do cofre',
     ['k_box_fee'] = 'Taxa do cofre',
     ['k_money_clip'] = 'Maço de notas',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Comissões",
+    ["set_withdraw_fee"] = "Comissão de levantamento",
+    ["set_transfer_fee"] = "Comissão de transferência",
 }

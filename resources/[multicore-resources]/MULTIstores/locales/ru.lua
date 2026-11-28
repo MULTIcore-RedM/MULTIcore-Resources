@@ -86,4 +86,16 @@ Locales['ru'] = {
     ['cat_ammo'] = 'Патроны',
     ['cat_goods'] = 'Товары',
     ['cat_materials'] = 'Материалы',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Цены и запасы",
+    ["setcat_hours"] = "Часы работы",
+    ["set_price_multiplier"] = "Множитель цен (сколько платят игроки)",
+    ["set_pay_multiplier"] = "Множитель выплат (сколько платят магазины)",
+    ["set_sell_enabled"] = "Игроки могут продавать магазинам",
+    ["set_max_per_purchase"] = "Макс. количество одного предмета за покупку",
+    ["set_restock_minutes"] = "Минут между пополнениями (0 = никогда)",
+    ["set_hours_enabled"] = "У магазинов есть часы работы",
+    ["set_hours_open"] = "Час открытия",
+    ["set_hours_close"] = "Час закрытия",
+    ["set_unit_min"] = "мин",
 }

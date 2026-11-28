@@ -200,4 +200,11 @@ Locales['no'] = {
     ['ui_on_duty_now'] = 'på vakt akkurat nå',
     ['ui_roster_help'] = 'Ansatte på vakt får betalt hver lønning. Uvirksomme ansatte tas av vakt.',
     ['ui_stash'] = 'Lager',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Lønn sjefer kan sette",
+    ["setcat_duty"] = "Vakt",
+    ["set_boss_pay_min"] = "Laveste lønn per utbetaling",
+    ["set_boss_pay_max"] = "Høyeste lønn per utbetaling",
+    ["set_afk_minutes"] = "Av vakt etter å ha stått stille så lenge (0 = aldri)",
+    ["set_unit_min"] = "min",
 }

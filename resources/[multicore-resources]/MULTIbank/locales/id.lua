@@ -148,4 +148,8 @@ Locales['id'] = {
     ['k_box_rent'] = 'Sewa kotak',
     ['k_box_fee'] = 'Biaya kotak',
     ['k_money_clip'] = 'Penjepit uang',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Biaya",
+    ["set_withdraw_fee"] = "Biaya penarikan",
+    ["set_transfer_fee"] = "Biaya transfer",
 }

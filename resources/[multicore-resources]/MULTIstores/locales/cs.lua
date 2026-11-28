@@ -90,4 +90,16 @@ Locales['cs'] = {
     ['cat_ammo'] = 'Střelivo',
     ['cat_goods'] = 'Zboží',
     ['cat_materials'] = 'Materiál',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Ceny a zásoby",
+    ["setcat_hours"] = "Otevírací doba",
+    ["set_price_multiplier"] = "Násobek cen (co platí hráči)",
+    ["set_pay_multiplier"] = "Násobek výkupu (co platí obchody)",
+    ["set_sell_enabled"] = "Hráči mohou prodávat obchodům",
+    ["set_max_per_purchase"] = "Nejvíce jedné položky na nákup",
+    ["set_restock_minutes"] = "Minuty mezi doplněními zásob (0 = nikdy)",
+    ["set_hours_enabled"] = "Obchody mají otevírací dobu",
+    ["set_hours_open"] = "Hodina otevření",
+    ["set_hours_close"] = "Hodina zavření",
+    ["set_unit_min"] = "min",
 }

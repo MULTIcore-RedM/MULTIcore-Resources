@@ -200,4 +200,11 @@ Locales['it'] = {
     ['ui_on_duty_now'] = 'in servizio ora',
     ['ui_roster_help'] = 'Il personale in servizio riceve ogni paga. Chi resta fermo viene messo fuori servizio.',
     ['ui_stash'] = 'Magazzino',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Paga che i capi possono stabilire",
+    ["setcat_duty"] = "Servizio",
+    ["set_boss_pay_min"] = "Paga minima per busta paga",
+    ["set_boss_pay_max"] = "Paga massima per busta paga",
+    ["set_afk_minutes"] = "Fuori servizio dopo tanto tempo fermo (0 = mai)",
+    ["set_unit_min"] = "min",
 }

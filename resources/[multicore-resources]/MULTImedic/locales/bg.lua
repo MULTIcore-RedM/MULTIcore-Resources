@@ -90,4 +90,8 @@ Locales['bg'] = {
     ['log_title'] = '%s (%s) загина',
     ['log_text'] = '%s беше убит от %s (причина %s)',
     ['log_unknown'] = 'неизвестно',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Смърт",
+    ["set_respawn_timer"] = "Секунди, преди повален играч да може да се възроди",
+    ["set_unit_sec"] = "с",
 }

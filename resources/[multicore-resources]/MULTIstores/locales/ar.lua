@@ -90,4 +90,16 @@ Locales['ar'] = {
     ['cat_ammo'] = 'ذخيرة',
     ['cat_goods'] = 'بضائع',
     ['cat_materials'] = 'مواد',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "الأسعار والمخزون",
+    ["setcat_hours"] = "ساعات العمل",
+    ["set_price_multiplier"] = "مضاعف السعر (ما يدفعه اللاعبون)",
+    ["set_pay_multiplier"] = "مضاعف الشراء (ما تدفعه المتاجر)",
+    ["set_sell_enabled"] = "يمكن للاعبين البيع للمتاجر",
+    ["set_max_per_purchase"] = "أقصى كمية من الصنف الواحد في كل عملية شراء",
+    ["set_restock_minutes"] = "الدقائق بين إعادة التزويد (0 = أبدًا)",
+    ["set_hours_enabled"] = "للمتاجر ساعات عمل",
+    ["set_hours_open"] = "ساعة الفتح",
+    ["set_hours_close"] = "ساعة الإغلاق",
+    ["set_unit_min"] = "د",
 }

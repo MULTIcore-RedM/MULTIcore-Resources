@@ -90,4 +90,16 @@ Locales['ro'] = {
     ['cat_ammo'] = 'Muniție',
     ['cat_goods'] = 'Mărfuri',
     ['cat_materials'] = 'Materiale',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Prețuri și stoc",
+    ["setcat_hours"] = "Program de funcționare",
+    ["set_price_multiplier"] = "Multiplicator de preț (ce plătesc jucătorii)",
+    ["set_pay_multiplier"] = "Multiplicator de răscumpărare (ce plătesc magazinele)",
+    ["set_sell_enabled"] = "Jucătorii pot vinde magazinelor",
+    ["set_max_per_purchase"] = "Cantitatea maximă dintr-un obiect pe achiziție",
+    ["set_restock_minutes"] = "Minute între reaprovizionări (0 = niciodată)",
+    ["set_hours_enabled"] = "Magazinele respectă un program",
+    ["set_hours_open"] = "Ora deschiderii",
+    ["set_hours_close"] = "Ora închiderii",
+    ["set_unit_min"] = "min",
 }

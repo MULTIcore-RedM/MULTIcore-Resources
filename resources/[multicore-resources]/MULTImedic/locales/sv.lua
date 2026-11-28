@@ -90,4 +90,8 @@ Locales['sv'] = {
     ['log_title'] = '%s (%s) dog',
     ['log_text'] = '%s dödades av %s (orsak %s)',
     ['log_unknown'] = 'okänd',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_death"] = "Död",
+    ["set_respawn_timer"] = "Sekunder innan en nedslagen spelare får återuppstå",
+    ["set_unit_sec"] = "s",
 }

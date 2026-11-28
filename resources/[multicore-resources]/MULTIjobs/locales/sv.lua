@@ -200,4 +200,11 @@ Locales['sv'] = {
     ['ui_on_duty_now'] = 'i tjänst just nu',
     ['ui_roster_help'] = 'Personal i tjänst får betalt vid varje lön. Sysslolös personal tas ur tjänst.',
     ['ui_stash'] = 'Förråd',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Lön som chefer får bestämma",
+    ["setcat_duty"] = "Tjänst",
+    ["set_boss_pay_min"] = "Lägsta lön per utbetalning",
+    ["set_boss_pay_max"] = "Högsta lön per utbetalning",
+    ["set_afk_minutes"] = "Av tjänst efter så här lång stillastående tid (0 = aldrig)",
+    ["set_unit_min"] = "min",
 }

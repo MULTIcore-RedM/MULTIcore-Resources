@@ -200,4 +200,11 @@ Locales['id'] = {
     ['ui_on_duty_now'] = 'sedang bertugas',
     ['ui_roster_help'] = 'Pegawai yang bertugas dibayar setiap gajian. Pegawai yang diam dikeluarkan dari tugas.',
     ['ui_stash'] = 'Gudang',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Gaji yang boleh ditentukan bos",
+    ["setcat_duty"] = "Tugas",
+    ["set_boss_pay_min"] = "Gaji terendah per pembayaran",
+    ["set_boss_pay_max"] = "Gaji tertinggi per pembayaran",
+    ["set_afk_minutes"] = "Keluar tugas setelah berdiri diam selama ini (0 = tidak pernah)",
+    ["set_unit_min"] = "mnt",
 }

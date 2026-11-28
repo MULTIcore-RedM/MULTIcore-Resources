@@ -86,4 +86,16 @@ Locales['it'] = {
     ['cat_ammo'] = 'Munizioni',
     ['cat_goods'] = 'Merci',
     ['cat_materials'] = 'Materiali',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_prices"] = "Prezzi e scorte",
+    ["setcat_hours"] = "Orari di apertura",
+    ["set_price_multiplier"] = "Moltiplicatore prezzi (quanto pagano i giocatori)",
+    ["set_pay_multiplier"] = "Moltiplicatore di acquisto (quanto pagano i negozi)",
+    ["set_sell_enabled"] = "I giocatori possono vendere ai negozi",
+    ["set_max_per_purchase"] = "Massimo dello stesso articolo per acquisto",
+    ["set_restock_minutes"] = "Minuti tra un rifornimento e l'altro (0 = mai)",
+    ["set_hours_enabled"] = "I negozi hanno orari di apertura",
+    ["set_hours_open"] = "Ora di apertura",
+    ["set_hours_close"] = "Ora di chiusura",
+    ["set_unit_min"] = "min",
 }

@@ -139,4 +139,8 @@ Locales['es'] = {
     ['k_box_rent'] = 'Alquiler de caja',
     ['k_box_fee'] = 'Cuota de caja',
     ['k_money_clip'] = 'Pinza de billetes',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Comisiones",
+    ["set_withdraw_fee"] = "Comisión de retirada",
+    ["set_transfer_fee"] = "Comisión de transferencia",
 }

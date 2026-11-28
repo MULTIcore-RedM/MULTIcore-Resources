@@ -200,4 +200,11 @@ Locales['vi'] = {
     ['ui_on_duty_now'] = 'đang trực',
     ['ui_roster_help'] = 'Nhân viên đang trực được trả lương mỗi kỳ. Nhân viên đứng không sẽ bị cho tan ca.',
     ['ui_stash'] = 'Kho',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_bosspay"] = "Mức lương ông chủ được đặt",
+    ["setcat_duty"] = "Ca làm",
+    ["set_boss_pay_min"] = "Lương thấp nhất mỗi kỳ",
+    ["set_boss_pay_max"] = "Lương cao nhất mỗi kỳ",
+    ["set_afk_minutes"] = "Hết ca sau khi đứng yên chừng này thời gian (0 = không bao giờ)",
+    ["set_unit_min"] = "phút",
 }

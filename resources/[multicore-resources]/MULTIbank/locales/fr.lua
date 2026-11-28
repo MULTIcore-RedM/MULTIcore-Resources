@@ -139,4 +139,8 @@ Locales['fr'] = {
     ['k_box_rent'] = 'Location de coffre',
     ['k_box_fee'] = 'Loyer du coffre',
     ['k_money_clip'] = 'Pince à billets',
+    -- in-game settings (MULTIadmin, Settings page)
+    ["setcat_fees"] = "Frais",
+    ["set_withdraw_fee"] = "Frais de retrait",
+    ["set_transfer_fee"] = "Frais de virement",
 }
